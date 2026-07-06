@@ -1,11 +1,10 @@
-# 🃏 Emoji Memory Match Game by Prince Pathak
-# A beautiful and fun Tkinter GUI game to test your memory with emoji cards!
+# Emoji Memory Match Game
+# A fun Tkinter GUI game to test your memory with emoji cards!
 
 import random
 import tkinter as tk
 from tkinter import messagebox
 
-# 🧠 Emoji pairs
 EMOJIS = ['🐶', '🐱', '🐻', '🦊', '🐸', '🐼', '🐵', '🦁']
 PAIRS = EMOJIS * 2
 random.shuffle(PAIRS)
@@ -68,9 +67,7 @@ class MemoryGame:
             messagebox.showinfo("🎉 Winner!", "You've matched all pairs!")
             self.root.after(1000, self.root.destroy)
 
-# 🖥️ Launch GUI
 if __name__ == "__main__":
     root = tk.Tk()
     game = MemoryGame(root)
     root.mainloop()
-# 🏁 End of the game
