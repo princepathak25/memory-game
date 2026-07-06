@@ -1,48 +1,47 @@
-# 🧠 Emoji Memory Match Game
+# Emoji Memory Match Game
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Tkinter](https://img.shields.io/badge/Tkinter-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-A fun, beautiful memory game made using Python & Tkinter — match all emoji pairs to win!  
-Built with 💙 by Prince Pathak
+A fun interactive memory game — match all emoji pairs to win!  
 
 ---
 
-## 🎮 Features
+## Features
 
-- 16 cards with 8 emoji pairs 🃏
-- Sleek dark-themed GUI using `tkinter`
+- 16 cards with 8 emoji pairs
+- Dark-themed GUI using `tkinter`
 - Smooth animations with delay-based match checking
-- Fully responsive game layout
-- Game ends with a pop-up congratulating the player 🎉
+- Responsive game layout
+- Game ends with a pop-up congratulating the player 
 
 ---
 
-## 🚀 How to Run
+## Tech Stack
+ - Python
+ - Tkinter
+
+---
+
+## How to Run
 
 ```bash
-python memory_game_prince.py
+python memory-game-gui.py
 ```
 
-> 💡 Requires Python 3.x and works on all major OSes.
+> Requires Python 3.x and works on all major OSes.
 
 ---
 
-## 🧱 File Structure
+## File Structure
 
 ```
-📁 memory-game-prince
- ┣ 📄 memory_game_prince.py
- ┗ 📄 README.md
+memory-game
+ ┣ memory-game-gui.py
+ ┗ README.md
 ```
 
 ---
 
-## 👨‍💻 About the Creator
+## Author
 
-Made with 💙 by Prince Pathak  
-Part of my journey blending Python CLI + GUI for GitHub excellence.
-
----
-
-## 📌 Coming Soon
-
-- Timed version with leaderboard ⏱️  
-- Sound & animation enhancements 🎵✨  
+**Prince Pathak** 
